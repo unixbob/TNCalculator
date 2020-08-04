@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="TNCalculator.Views.SelectedDiaryEdit">
+     <ContentPage.ToolbarItems>
+           <ToolbarItem Text="Back" Clicked="Close_Clicked" />  
+         <ToolbarItem Text="Save" Clicked="OnDiarySaveButtonClicked" /> 
+     </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+   <StackLayout BackgroundColor="#f5f6fa" HorizontalOptions="Center" >
+      <FlexLayout Direction="Column" JustifyContent="SpaceEvenly" >
+            <Label x:Name="banana" Text=" "/>
+           <Grid BackgroundColor="#f5f6fa">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="90*"/>
+                </Grid.RowDefinitions>
+
+                    
+                   <!-- <Button Clicked="Close_Clicked" Text="Back"  HorizontalOptions="End" Grid.Row="0"  ></Button> -->
+                    <Label x:Name="OldJournal" Text="My Journal" VerticalTextAlignment="End"         Grid.Row="0" />
+                    <Editor x:Name="OldJournalData"    Grid.Row="1"  BackgroundColor="White"
+                                VerticalOptions="FillAndExpand" Keyboard="Default"
+                                  />
+                    
+                   <!-- Text="{Binding Journal}" -->
+                   </Grid>
+       </FlexLayout>
+   </StackLayout>
+   </ContentPage.Content>
+</ContentPage>
+

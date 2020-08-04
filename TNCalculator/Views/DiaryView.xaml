@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="TNCalculator.Views.DiaryView">
+
+     <ContentPage.ToolbarItems>
+       <ToolbarItem Text="Lock" Clicked="BacktoCalc" />
+     </ContentPage.ToolbarItems>
+
+   <ContentPage.Content>
+        <StackLayout>
+        <Grid>
+            <Image Source="Compose.png"
+                               Aspect="AspectFill"
+                               VerticalOptions="CenterAndExpand"
+                               HorizontalOptions="CenterAndExpand">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer
+                                    Tapped="TapGestureRecognizer_Tapped" />
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+
+
+
+         <Grid>
+                     <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20*"/>
+                        <ColumnDefinition Width="Auto"/>
+                           <ColumnDefinition Width="20*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+           <Grid.RowDefinitions>
+               <RowDefinition Height="Auto"/>
+               <RowDefinition Height="Auto"/>
+           </Grid.RowDefinitions>
+       <Label Text="From:" YAlign="Center" Grid.Row="1" Grid.Column="0" Margin="0, 0, 0, 0"/>
+       <DatePicker x:Name="startDatePicker" Format="MMMM dd" DateSelected="OnDateSelected" 
+            Margin="0, 0, 0, 0" Grid.Row="1" Grid.Column="1" MaximumDate="{x:Static sys:DateTime.Now}"/>
+
+       <Label Text="To:" YAlign="Center" Grid.Row="1"  Grid.Column="2" Margin="0, 0, 0, 0"/>
+
+       <DatePicker  x:Name="endDatePicker" MinimumDate="{Binding Source={x:Reference startDatePicker},Path=Date}"
+           MaximumDate="{x:Static sys:DateTime.Now}" Format="MMMM dd" Grid.Row="1"  Grid.Column="3" DateSelected="OnDateSelected"/>
+                       
+                </Grid>
+                             <ListView x:Name="listView"   ItemsSource="{Binding Feelings}"
+                               ItemSelected="OnDiaryListViewItemSelected" >
+                            <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <ViewCell >
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label  Text="{Binding Date, StringFormat='{0:MMM dd}'}"/>
+                                                 <Label  Text="{Binding JournalSummary}" />
+                                                </StackLayout>
+                                        </ViewCell>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+
+
+      <!-- here -->
+        </StackLayout>
+
+    </ContentPage.Content>
+    
+</ContentPage>
+
+ 

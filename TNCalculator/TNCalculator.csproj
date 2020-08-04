@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.7.0.1239" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Acr.UserDialogs" Version="7.1.0.446" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Plugin.FacebookClient" Version="2.2.1" />
+    <PackageReference Include="Plugin.GoogleClient" Version="2.1.12" />
+    <PackageReference Include="refit" Version="5.1.67" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
+    <PackageReference Include="System.ObjectModel" Version="4.3.0" />
+    <PackageReference Include="Syncfusion.Xamarin.Pdf" Version="18.2.0.47" />
+    <PackageReference Include="Syncfusion.DocIORenderer.Net.Core" Version="18.2.0.47" />
+    <PackageReference Include="Syncfusion.Xamarin.DocIORenderer" Version="18.2.0.47" />
+    <PackageReference Include="Syncfusion.Xamarin.SfPdfViewer" Version="18.2.0.47" />
+    <PackageReference Include="Microsoft.Azure.CognitiveServices.Language.TextAnalytics" Version="4.0.0" />
+    <PackageReference Include="Azure.AI.TextAnalytics" Version="5.0.0" />
+    <PackageReference Include="AsyncAwaitBestPractices.MVVM" Version="4.2.0" />
+    <PackageReference Include="Xam.Plugin.Media" Version="5.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Views\DiaryView_old.xaml.cs" />
+    <Compile Remove="Views\FeelingsView %28copy%29.xaml.cs" />
+    <Compile Remove="Models\DiaryEdit.xaml.cs" />
+    <Compile Remove="Classes\SentimentAnalysis.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\DiaryView_old.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\Resources.xaml.cs">
+      <DependentUpon>Resources.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Survey.xaml.cs">
+      <DependentUpon>Survey.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

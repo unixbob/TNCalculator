@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="TNCalculator.Views.SelectedDiaryView">
+     <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Back" Clicked="Close_Clicked" />
+        <!-- <ToolbarItem Text="Load Data" Clicked="DataLoadButtonClicked" />  -->
+       <!-- <ToolbarItem Text="Clear Data" Clicked="DataRemoveButtonClicked" /> -->
+     </ContentPage.ToolbarItems>
+   <StackLayout BackgroundColor="#f5f6fa" HorizontalOptions="Center" >
+      <FlexLayout Direction="Column" JustifyContent="SpaceEvenly" >
+           <Grid BackgroundColor="#f5f6fa"  >
+                <Grid.RowDefinitions BackgroundColor="Gray" >
+                  <RowDefinition Height="*" />
+                  <RowDefinition Height="*" />
+                  <RowDefinition Height="*" />
+                  <RowDefinition Height="*" />
+                  <RowDefinition Height="*" />
+                  <RowDefinition Height="*" />
+                  <RowDefinition Height="*" />
+                  <RowDefinition Height="*" />
+                  <RowDefinition Height="*" />
+                  <RowDefinition Height="*" />
+                  <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                    
+                   <!-- <Button Clicked="Close_Clicked" Text="Back"  HorizontalOptions="End" Grid.Row="0"  ></Button> -->
+                    <Label Text="Significant Events" VerticalTextAlignment="End"         Grid.Row="1" />
+                    <Label Text="{Binding SignificantEvent}"  BackgroundColor="White"   Grid.Row="2"  />
+                    <Label Text="People I've Seen"  VerticalTextAlignment="End"         Grid.Row="3"  />
+                    <Label Text="{Binding PeopleIveSeen}" BackgroundColor="White"       Grid.Row="4" />
+                    <Label Text="Places I've Been"  VerticalTextAlignment="End"         Grid.Row="5"  />
+                    <Label Text="{Binding PlacesIveBeen}" BackgroundColor="White"       Grid.Row="6" />
+                    <Label Text="Things I've Achieved"  VerticalTextAlignment="End"      Grid.Row="7" />
+                    <Label Text="{Binding ThingsIveAchieved}" BackgroundColor="White"   Grid.Row="8" />
+                    <Label Text="Exercise"  VerticalTextAlignment="End"                  Grid.Row="9" />
+                    <Label Text="{Binding Exercise}" BackgroundColor="White"            Grid.Row="10" />
+                   </Grid>
+       </FlexLayout>
+   </StackLayout>
+   
+</ContentPage>
+

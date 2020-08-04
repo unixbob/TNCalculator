@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="TNCalculator.Views.Resources">
+
+     <ContentPage.ToolbarItems>
+       <ToolbarItem Text="Lock" Clicked="BacktoCalc" />
+     </ContentPage.ToolbarItems>
+
+<ContentPage.Content>
+   <StackLayout>
+      <Grid>
+          <Grid.RowDefinitions>
+             <RowDefinition Height="Auto"/>
+             <RowDefinition Height="Auto"/>
+             <RowDefinition Height="Auto"/>
+             <RowDefinition Height="Auto"/>
+           </Grid.RowDefinitions>
+
+
+           <Label Grid.Row="0" Text="Hey Bro" FontAttributes="Bold"/>
+           <Label FontSize="Small" Grid.Row="1" Text="Help for men who are worried they could harm a loved one or whānau member and want to make a change. "/>
+           <Button Text="http://hewakatapu.org.nz/services/0800-hey-bro " Clicked = "HeyBroOpenWebCommand" 
+                   BackgroundColor="Transparent" Grid.Row="2" HorizontalOptions="Start"  VerticalOptions="Center"  FontAttributes="Italic" TextColor="Blue" />
+           <Button Text="call: 0800 439 276" Clicked = "ShineOpenPhoneCommand" BackgroundColor="Transparent"
+                   Grid.Row="3" HorizontalOptions="Start"  VerticalOptions="Center" />
+      </Grid>
+
+      <Grid>
+          <Grid.RowDefinitions>
+             <RowDefinition Height="Auto"/>
+             <RowDefinition Height="Auto"/>
+             <RowDefinition Height="Auto"/>
+             <RowDefinition Height="Auto"/>
+          </Grid.RowDefinitions>
+
+           <Label Grid.Row="0" Text="Women's Refuge" FontAttributes="Bold"/>
+           <Label FontSize="Small" Grid.Row="1" Text="24/7 help for women and children experiencing family violence, including advocacy and accommodation."/>
+           <Button Text="http://womensrefuge.org.nz/contact-us/find-your-local-refuge/ " Clicked = "WomensRefugeOpenWebCommand" BackgroundColor="Transparent"
+                   Grid.Row="2" HorizontalOptions="Start"  VerticalOptions="Center" FontAttributes="Italic" TextColor="Blue"/>
+           <Button Text="Call: 0800 439 276" Clicked = "ShineOpenPhoneCommand" BackgroundColor="Transparent"
+                   Grid.Row="3" HorizontalOptions="Start"  VerticalOptions="Center" />
+      </Grid>
+
+      <Grid>
+          <Grid.RowDefinitions>
+             <RowDefinition Height="Auto"/>
+             <RowDefinition Height="Auto"/>
+             <RowDefinition Height="Auto"/>
+          </Grid.RowDefinitions>
+
+           <Label Grid.Row="0" Text="It's Not OK info line" FontAttributes="Bold"/>
+           <Label FontSize="Small"  Grid.Row="1" Text="It's Not OK can help you access support if you are experiencing or witnessing family violence. ."/>
+           <Button Text="Call: 0800 456 450" Clicked = "ShineOpenPhoneCommand" BackgroundColor="Transparent"
+                   Grid.Row="2" HorizontalOptions="Start"  VerticalOptions="Center" />
+      </Grid>
+                <!--   <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                        <Label Grid.Row="0"   Text="Is it missing something?  Just press feedback to send me an email"/>
+
+                     
+                     </Grid> -->
+   </StackLayout>
+ 
+       
+</ContentPage.Content>
+    
+</ContentPage>
+
+ 

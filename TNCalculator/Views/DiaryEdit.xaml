@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:tabView="clr-namespace:Syncfusion.XForms.TabView;assembly=Syncfusion.SfTabView.XForms"
+             mc:Ignorable="d"
+             x:Class="TNCalculator.Views.DiaryEdit">
+
+
+
+     <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Slider">
+                <Setter Property="Maximum" Value="255" />
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+            </Style>
+       </ResourceDictionary>
+    </ContentPage.Resources>
+     <ContentPage.ToolbarItems>
+         <ToolbarItem x:Name="banana" Text="" />
+        <ToolbarItem Text="Back"  Clicked="Close_Clicked" />
+       <ToolbarItem Text="Save" Clicked="OnDiarySaveButtonClicked" /> 
+ </ContentPage.ToolbarItems>
+
+  <ContentPage.Content>
+    
+                         <Grid BackgroundColor="#f5f6fa">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10*"/>
+                    <RowDefinition Height="90*"/>
+                </Grid.RowDefinitions>
+                             <Grid.ColumnDefinitions>
+                                 <ColumnDefinition Width="90*"/>
+                                 <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="Make a note of today here." HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+               
+
+                     <ImageButton Source="PhoneCamera.png"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                                  Grid.Row="0" Grid.Column="1" />
+                <Editor Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="Journal" Margin="10" BackgroundColor="White"
+                                VerticalOptions="FillAndExpand" Keyboard="Default"
+                                Placeholder="Significant events that might affect your mood — interactions, successes, disappointments, anniversaries, illness, losses, etc." />
+
+                         </Grid>
+             
+           
+
+
+  </ContentPage.Content>
+</ContentPage>

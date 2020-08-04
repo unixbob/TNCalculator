@@ -1,0 +1,454 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppGroupContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppInviteContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKCameraEffectArguments
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKCameraEffectTextures
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGameRequestContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGameRequestDialog
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKHashtag
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMessageDialog
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSendButton
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+Field=FBSDKShareErrorDomain
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareAPI
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareButton
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareCameraEffectContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareDialog
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareLinkContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMediaContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMessengerGenericTemplateContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMessengerGenericTemplateElement
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMessengerMediaTemplateContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMessengerOpenGraphMusicTemplateContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareMessengerURLActionButton
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphAction
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphObject
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareOpenGraphValueContainer
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSharePhoto
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSharePhotoContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareVideo
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKShareVideoContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.ShareKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKSettings
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAccessTokenDidChangeNotification
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAccessTokenDidExpireKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAccessTokenChangeNewKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAccessTokenChangeOldKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAccessTokenDidChangeUserIDKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAccessToken
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameAchievedLevel
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameAddedPaymentInfo
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameAddedToCart
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameAddedToWishlist
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameCompletedRegistration
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameCompletedTutorial
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameInitiatedCheckout
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNamePurchased
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameRated
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameSearched
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameSpentCredits
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameUnlockedAchievement
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameViewedContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameContact
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameCustomizeProduct
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameDonate
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameFindLocation
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameSchedule
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameSubscriptionHeartbeat
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameStartTrial
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameSubmitApplication
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameSubscribe
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameAdImpression
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventNameAdClick
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameContent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameContentID
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameContentType
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameCurrency
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameDescription
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameLevel
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameMaxRatingValue
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameNumItems
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNamePaymentInfoAvailable
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameRegistrationMethod
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameSearchString
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameSuccess
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameAdType
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterNameOrderID
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductCustomLabel0
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductCustomLabel1
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductCustomLabel2
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductCustomLabel3
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductCustomLabel4
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkIOSUrl
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkIOSAppStoreID
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkIOSAppName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkIPhoneUrl
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkIPhoneAppStoreID
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkIPhoneAppName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkIPadUrl
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkIPadAppStoreID
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkIPadAppName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkAndroidUrl
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkAndroidPackage
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkAndroidAppName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkWindowsPhoneUrl
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkWindowsPhoneAppID
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterProductAppLinkWindowsPhoneAppName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterValueYes
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventParameterValueNo
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventsLoggingResultNotification
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventsOverrideAppIDBundleKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppEvents
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventEmail
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventFirstName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventLastName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventPhone
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventDateOfBirth
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventGender
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventCity
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventState
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventZip
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppEventCountry
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKApplicationDelegate
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppLinkVersion
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLink
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkNavigation
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkResolver
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkReturnToRefererController
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkReturnToRefererView
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkTarget
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKAppLinkUtility
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKButton
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKErrorArgumentCollectionKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKErrorArgumentNameKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKErrorArgumentValueKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKErrorDeveloperMessageKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKErrorDomain
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKErrorLocalizedDescriptionKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKErrorLocalizedTitleKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphErrorRecoveryProcessor
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequest
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKNonJSONResponseProperty
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequestConnection
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKGraphRequestDataAttachment
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKGraphRequestErrorKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKGraphRequestErrorGraphErrorCodeKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKGraphRequestErrorGraphErrorSubcodeKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKGraphRequestErrorHTTPStatusCodeKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKGraphRequestErrorParsedJSONResponseKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKHTTPMethodGET
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKHTTPMethodPOST
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKHTTPMethodDELETE
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKLoggingBehaviorAccessTokens
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKLoggingBehaviorPerformanceCharacteristics
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKLoggingBehaviorAppEvents
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKLoggingBehaviorInformational
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKLoggingBehaviorCacheErrors
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKLoggingBehaviorUIControlErrors
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKLoggingBehaviorGraphAPIDebugWarning
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKLoggingBehaviorGraphAPIDebugInfo
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKLoggingBehaviorNetworkRequests
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKLoggingBehaviorDeveloperErrors
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppLinkNavigateBackToReferrerEventName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppLinkNavigateInEventName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppLinkNavigateOutEventName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKAppLinkParseEventName
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKMeasurementEventArgsKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKMeasurementEventNameKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKMeasurementEventNotification
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKMeasurementEvent
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKProfileDidChangeNotification
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKProfileChangeNewKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+Field=FBSDKProfileChangeOldKey
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKProfile
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKProfilePictureView
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKTestUsersManager
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKURL
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKUtility
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKWebViewAppLinkResolver
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.CoreKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKDeviceLoginCodeInfo
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.LoginKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKDeviceLoginManager
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.LoginKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKDeviceLoginManagerResult
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.LoginKit.dll
+Field=FBSDKLoginAuthTypeRerequest
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.LoginKit.dll
+Field=FBSDKLoginAuthTypeReauthorize
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.LoginKit.dll
+Field=FBSDKLoginErrorDomain
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.LoginKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginButton
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.LoginKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginManager
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.LoginKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginManagerLoginResult
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.LoginKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKLoginTooltipView
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.LoginKit.dll
+ObjectiveCClass=OBJC_CLASS_$_FBSDKTooltipView
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Facebook.LoginKit.dll
+ObjectiveCClass=OBJC_CLASS_$_GIDAuthentication
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Google.SignIn.dll
+ObjectiveCClass=OBJC_CLASS_$_GIDGoogleUser
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Google.SignIn.dll
+ObjectiveCClass=OBJC_CLASS_$_GIDProfileData
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Google.SignIn.dll
+Field=kGIDSignInErrorDomain
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Google.SignIn.dll
+ObjectiveCClass=OBJC_CLASS_$_GIDSignIn
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Google.SignIn.dll
+ObjectiveCClass=OBJC_CLASS_$_GIDSignInButton
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Google.SignIn.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRApp
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIRConfiguration
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Firebase.Core.dll
+ObjectiveCClass=OBJC_CLASS_$_FIROptions
+	/Users/bob/Projects/EbbAndFlow/EbbAndFlow.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Firebase.Core.dll

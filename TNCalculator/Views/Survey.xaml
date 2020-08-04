@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="TNCalculator.Views.Survey">
+
+     <ContentPage.ToolbarItems>
+       <ToolbarItem Text="Lock" Clicked="BacktoCalc" />
+     </ContentPage.ToolbarItems>
+
+   <ContentPage.Content>
+        <StackLayout>
+
+            <Button Text="Submit" Clicked = "SubmitSurvey" BackgroundColor="Transparent"></Button>
+            <Label x:Name="SurveyOutput" Text=" "/>
+            <ScrollView>
+                <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="15*"/>
+                </Grid.ColumnDefinitions>
+                 
+                <Label Text="Terrible"  Grid.Row="2" Grid.Column="0"  HorizontalOptions="Start" />
+                <Label HorizontalTextAlignment="Start" Text="1.How are you feeling physically today?" Grid.Row="0"
+                       Grid.Column="0"  Grid.ColumnSpan="3"/>
+
+              <StackLayout  Grid.Row="1"  Grid.Column="0"  Grid.ColumnSpan="3" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="1" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="1" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="1" />
+                      </Grid.ColumnDefinitions>
+                      <BoxView Grid.Column="0"   BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                      <BoxView Grid.Column="1"   BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                      <BoxView Grid.Column="3"   BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                     <BoxView Grid.Column="5"   BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                      <BoxView Grid.Column="7"   BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/> 
+  
+                     </Grid>
+                  </StackLayout>
+                <Slider x:Name="FeelingPhysicallySlider" ValueChanged="OnSliderValueChanged"  MinimumTrackColor="Black" MaximumTrackColor="Black"
+                        Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="3"/>
+                <Label Text="Great"  Grid.Row="2" Grid.Column="2"  HorizontalOptions="End" />
+              </Grid>
+        
+          <Grid>
+                <Grid.RowDefinitions> 
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                     <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="15*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="15*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Text="Terrible" Grid.Row="2" Grid.Column="0"   HorizontalOptions="Start" />
+                <Label HorizontalTextAlignment="Start" Text="2.How are you feeling mentally today?"
+                        Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="3"/>
+                
+                <StackLayout  Grid.Row="1"  Grid.Column="0"  Grid.ColumnSpan="3" >
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="1" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="1" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="1" />
+                          </Grid.ColumnDefinitions>
+                          <BoxView Grid.Column="0"   BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                          <BoxView Grid.Column="1"   BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                          <BoxView Grid.Column="3"   BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                          <BoxView Grid.Column="5"   BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+                          <BoxView Grid.Column="7"   BackgroundColor="Blue" WidthRequest="1" VerticalOptions="FillAndExpand" HorizontalOptions="End"/>
+  
+                     </Grid>
+                  </StackLayout>
+                <Slider x:Name="FeelingMentallySlider" ValueChanged="OnSliderValueChanged"  MinimumTrackColor="Black" MaximumTrackColor="Black"
+                         Grid.Row="1" Grid.Column="0"  Grid.ColumnSpan="3"/>
+                 <Label Text="Great"  Grid.Row="2" Grid.Column="2"  HorizontalOptions="End" />
+            </Grid> 
+
+                     <Label Text="3.Has anything happened to make you feel this way?" Grid.Row="0" Grid.Column="0"  Grid.ColumnSpan="2"/>
+                   <Editor x:Name="TodaysFeeling"   AutoSize="TextChanges"/>
+                   <Label x:Name="TodaysFeelingOutput" Text=" "/>
+
+                 <StackLayout>
+                    <Label Text="4.Do you feel like you are being coerced or controlled by someone else?" />
+                    <RadioButton Text="Yes" />
+                    <RadioButton Text="No" IsChecked="true" />
+                </StackLayout>
+
+
+                    <Label Text="5.Have you or someone else been harmed?" />
+                    <RadioButton Text="Yes" />
+                    <RadioButton Text="No" IsChecked="true" />
+    
+               
+                <Label Text="6.Intimidation and Threats" />
+                  <Grid>
+                <Grid.RowDefinitions> 
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                     <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                     <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="90*"/>
+                   
+                </Grid.ColumnDefinitions>
+                       <CheckBox Grid.Row="0" Grid.Column="0" x:Name="checkBox1"/>
+                      <Label  Grid.Row="0" Grid.Column="1" Text="Threatened to kill you" VerticalOptions="Center"/>
+                      <CheckBox Grid.Row="1" Grid.Column="0" x:Name="checkBox2"/>
+                      <Label  Grid.Row="1" Grid.Column="1" Text="Threatened you with a weapon" VerticalOptions="Center"/>
+                      <CheckBox Grid.Row="2" Grid.Column="0" x:Name="checkBox3"/>
+                      <Label  Grid.Row="2" Grid.Column="1" Text="Screamed or yelled at you" VerticalOptions="Center"/>
+                      </Grid>
+                 <Label Text="12.If anyone was present and saw what happened? (witness)" />
+                   <Editor x:Name="WitnessNotes"   AutoSize="TextChanges"/>
+                   <Label x:Name="WitnessOutput" Text=" "/>
+                </StackLayout>
+            </ScrollView>
+
+        </StackLayout>
+  
+                     
+   </ContentPage.Content>
+    
+</ContentPage>
+
+ 

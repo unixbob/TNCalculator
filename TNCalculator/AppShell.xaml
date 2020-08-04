@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       mc:Ignorable="d"
+       xmlns:local="clr-namespace:TNCalculator"
+       Title="TNCalculator"
+       x:Class="TNCalculator.AppShell">
+    
+    <!-- 
+        Styles and Resources 
+    -->
+    <Shell.Resources>
+        <ResourceDictionary>
+             <Color x:Key="NavigationPrimary">#85a5c1</Color>
+           <Style x:Key="BaseStyle" TargetType="Element">
+               <!-- #85a5c1 -->
+             <!--   <Setter Property="Shell.BackgroundColor" Value="#dcc2ee" /> --> <!-- #85a5c1 -->
+             <!--   <Setter Property="Shell.ForegroundColor" Value="#eae9e4" /> --><!-- Highlighted ShellContent Title Text -->
+             <!--   <Setter Property="Shell.TitleColor" Value="#eae9e4" /> --> <!-- Highlighted Tab Text --> 
+                
+             <!--   <Setter Property="Shell.UnselectedColor" Value="#eae9e4" />  --><!-- Unselected Tab Text -->
+             <!--   <Setter Property="Shell.TabBarIsVisible" Value="False"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#eae9e4"/> 
+             
+                <Setter Property="Shell.BackgroundColor" Value="#9cbcd9" />
+                <Setter Property="Shell.TitleColor" Value="#000000" />
+                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+                <Setter Property="Shell.UnselectedColor" Value="#7F7FFF" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="#a3c3df" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="#85a5c1"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#a3c3df"/>  -->
+                
+
+              
+            </Style>
+           <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+           <Style TargetType="ShellItem" BasedOn="{StaticResource BaseStyle}" /> 
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />   
+        </ResourceDictionary>
+
+    </Shell.Resources> 
+
+    
+    <FlyoutItem Title="Home" >
+
+       <!--  <ShellContent Title="Diary" Route="DiaryView" Icon="description.png"
+                              ContentTemplate="{DataTemplate local:Views.DiaryView} " />
+        <ShellContent Title="Home" Route="MainPage" Icon="description.png"
+          <Tab  Route="MyDay" Title="Today"  Icon="add_to_home_screen.png">
+                <ShellContent Title="Diary" Route="DiaryView" Icon="description.png"
+                              ContentTemplate="{DataTemplate local:Views.DiaryView} " />
+              </Tab>
+           <Tab  Route="MyJourney" Title="History"  Icon="date_range.png" >
+                <ShellContent Title="How I'm Feeling" Route="FeelingsEdit" Icon="assignment_ind.png"
+                              ContentTemplate="{DataTemplate local:Views.FeelingsEdit}" />
+               <ShellContent Title="Diary" Route="DiaryEdit" Icon="description.png"
+                              ContentTemplate="{DataTemplate local:Views.DiaryEdit} " />
+               
+            </Tab> -->
+       <!-- <Tab  Route="MyJournal" Title="Journal"  Icon="date_range.png" > -->
+            <ShellContent Title="My Journal" Route="DiaryView"  Icon="assignment_ind.png"
+                              ContentTemplate="{DataTemplate local:Views.DiaryView}" />
+            <ShellContent Title="Guide Me" Route="Survey" Icon="description.png"
+                              ContentTemplate="{DataTemplate local:Views.Survey} " />
+            <ShellContent Title="Resources" Route="Resources"
+                              ContentTemplate="{DataTemplate local:Views.Resources}" />
+        <!-- </Tab> -->
+
+    </FlyoutItem >
+
+
+ <!--   <FlyoutItem Title="How I'm Feeling" >
+                       <ShellContent Title="How I'm Feeling" Route="FeelingsEdit" Icon="assignment_ind.png"
+                              ContentTemplate="{DataTemplate local:Views.FeelingsEdit}" />
+    </FlyoutItem> -->
+
+            <!--     <FlyoutItem Title="Export your data" >
+                       <ShellContent Title="Export your data" Route="ExportData" Icon="description.png"
+                              ContentTemplate="{DataTemplate local:Views.Export} " />
+
+    </FlyoutItem>
+        <FlyoutItem Title="About Ebb and Flow" >
+                       <ShellContent Title="About Ebb and Flow" Route="AboutPage" Icon="description.png"
+                              ContentTemplate="{DataTemplate local:Views.AboutPage} " />
+
+    </FlyoutItem>  -->
+ <!--         <MenuItem Text="About Ebb and Flow" Clicked="AboutPage" />
+      <MenuItem Text="Error Log" Clicked="ErrorLog" />  -->
+ <!-- <MenuItem Text="Feelings Data" Clicked="FeelingsData" />
+        <MenuItem Text="Meds Data" Clicked="MedsData" />
+      <MenuItem Text="Status Data" Clicked="StatusData" />  
+    <MenuItem Text="Social Media Login" Clicked="SocialLoginPage" />  -->
+
+    
+</Shell>

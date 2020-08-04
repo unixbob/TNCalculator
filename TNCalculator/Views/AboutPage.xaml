@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+              xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+            
+             mc:Ignorable="d" x:Class="TNCalculator.Views.AboutPage"
+             xmlns:vm="clr-namespace:GreatCupofCoffee.ViewModels"
+             xmlns:views="clr-namespace:GreatCupofCoffee.Views" Title="{Binding Title}">
+    <Shell.TitleView>
+        
+<!-- <Label FontAttributes="Bold"  FontSize="Medium" HorizontalTextAlignment="Center" Text="About me:"/> -->
+            </Shell.TitleView>
+    <ContentPage.Content>
+    <Grid>
+          <gradient:SfGradientView>
+            <gradient:SfGradientView.BackgroundBrush>
+                <gradient:SfLinearGradientBrush  StartPoint="0,0" EndPoint="1,1" >
+                    <gradient:SfLinearGradientBrush.GradientStops>
+                        <gradient:SfGradientStop Color="#f5efeb" Offset="0.0" />
+                        <gradient:SfGradientStop Color="white" Offset="1.0" />
+                    </gradient:SfLinearGradientBrush.GradientStops>
+                </gradient:SfLinearGradientBrush>
+            </gradient:SfGradientView.BackgroundBrush>
+        </gradient:SfGradientView>
+    <StackLayout  VerticalOptions="CenterAndExpand" >
+        <Grid Padding="20,10,20,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                
+             </Grid.RowDefinitions>
+            
+
+        <Label Grid.Row="0" Text="Ebb and Flow is a simple Diary app to record your daily feelings.  Press the Learn More button for more info."/>
+   <!-- <Label Text="How you make the coffee also affects how much coffee to use.  Infusion coffee like a French Press needs more coffee granules than Drip Coffee."/> 
+    <Label Grid.Row="0" Text="This is just an easy tool to help you work out how much ground coffee to put into your coffee making device."/> -->
+   <Button Text="Learn more" Clicked = "OpenWebCommand" BackgroundColor="Transparent"
+           Grid.Row="1" HorizontalOptions="Center"  VerticalOptions="Center" FontSize="Medium"
+           TextColor="#487eb0" FontAttributes="Bold"/>
+          
+          
+         </Grid>
+        <Grid Padding="20,10,20,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+        <Label Grid.Row="0"   Text="Is it missing something?  Just press feedback to send me an email"/>
+
+          <Button Clicked = "FeedBackEmail" Text="Feedback" BorderColor="Transparent"
+                  BackgroundColor="Transparent"  Grid.Row="1"  HorizontalOptions="Center"
+                  VerticalOptions="Center" FontSize="Medium" TextColor="#487eb0" FontAttributes="Bold" />
+     </Grid>
+    
+        </StackLayout>
+  
+        </Grid>
+</ContentPage.Content>
+</ContentPage>
